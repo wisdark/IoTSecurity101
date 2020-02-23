@@ -9,7 +9,6 @@
   4. Wireless Connectivity 
   5. Firmware Pentesting(Hardware or IoT device OS)
   6. Hardware Level Approach 
-  7. Storage Areas
 
 ### ***To seen Hacked devices***
 1. https://blog.exploitee.rs/2018/10/
@@ -27,9 +26,11 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-### ***Telegram group for IoT Security***
+### ***Telegram groups for IoT Security***
 
 - <https://t.me/iotsecurity1011>
+- <https://t.me/hardwareHackingBrasil>
+- <https://t.me/joinchat/JAMxOg5YzdkGjcF3HmNgQw>
 
 ### ***Discord Group for IoT Security and CTF***
 - https://discord.gg/EH9dxT9
@@ -44,25 +45,28 @@
 - [Linksys WRT54G Ultimate Hacking](https://www.amazon.com/Linksys-WRT54G-Ultimate-Hacking-Asadoorian/dp/1597491667)
 - [Linux Binary Analysis](https://www.packtpub.com/networking-and-servers/learning-linux-binary-analysis)
 - [Firmware](https://www.amazon.com/Firmware-Handbook-Embedded-Technology/dp/075067606X)
+- [Hardware Hacking Handbook](https://books.google.co.in/books?id=DEqatAEACAAJ&source=gbs_navlinks_s)
+- [inside radio attack and defense](https://books.google.co.in/books?id=71NSDwAAQBAJ&printsec=copyright&redir_esc=y#v=onepage&q&f=false)
 
 ### ***Blogs for iotpentest***
-1. http://iotpentest.com/
-2. https://blog.attify.com
-3. https://payatu.com/blog/
-4. http://jcjc-dev.com/
-5. https://w00tsec.blogspot.in/
-6. http://www.devttys0.com/
-7. https://www.rtl-sdr.com/
-8. https://keenlab.tencent.com/en/
-9. https://courk.cc/
-10. https://iotsecuritywiki.com/
-11. https://cybergibbons.com/
-12. http://firmware.re/
-13. https://iotmyway.wordpress.com/
-14. http://blog.k3170makan.com/
-15. https://blog.tclaverie.eu/
-16. http://blog.besimaltinok.com/category/iot-pentest/
-17. https://ctrlu.net/
+
+1. https://payatu.com/blog/
+2. http://jcjc-dev.com/
+3. https://w00tsec.blogspot.in/
+4. http://www.devttys0.com/
+5. https://www.rtl-sdr.com/
+6. https://keenlab.tencent.com/en/
+7. https://courk.cc/
+8. https://iotsecuritywiki.com/
+9. https://cybergibbons.com/
+10. http://firmware.re/
+11. https://iotmyway.wordpress.com/
+12. http://blog.k3170makan.com/
+13. https://blog.tclaverie.eu/
+14. http://blog.besimaltinok.com/category/iot-pentest/
+15. https://ctrlu.net/
+16. http://iotpentest.com/
+17. https://blog.attify.com
 18. https://duo.com/decipher/
 19. http://www.sp3ctr3.me
 20. http://blog.0x42424242.in/
@@ -71,9 +75,12 @@
 23. https://quentinkaiser.be/
 24. https://blog.quarkslab.com
 25. https://blog.ice9.us/
+26. https://labs.f-secure.com/
+27. https://mg.lol/blog/
 
-### ***Awesome Nmap CheatSheet***
-- https://github.com/gnebbia/nmap_tutorial
+### ***Awesome CheatSheets***
+- [Hardware Hacking](https://github.com/arunmagesh/hw_hacking_cheatsheet)
+- [Nmap](https://github.com/gnebbia/nmap_tutorial)
 
 ### ***Search Engines for IoT Devices***
 1. [Shodan](https://www.shodan.io/)
@@ -110,11 +117,11 @@
 - [Reflecting upon OWASP TOP-10 IoT Vulnerabilities](https://embedi.org/blog/reflecting-upon-owasp-top-10-iot-vulnerabilities/)
 - [OWASP IoT Top 10 2018 Mapping Project](https://scriptingxss.gitbook.io/owasp-iot-top-10-mapping-project/)
 
-### ***IoT Gateway Software 
+### ***IoT Gateway Software***
 
 - [Webthings by Mozilla - RaspberryPi](https://iot.mozilla.org/docs/gateway-getting-started-guide.html)
 
-### ***Labs for Practice*** ####
+### ***Labs for Practice***
 - [IoT Goat](https://github.com/scriptingxss/IoTGoat)
 
 ### ***IoT Pentesting OSes***
@@ -122,6 +129,7 @@
 - [Instatn-gnuradio OS - For Radio Signals Testing](https://github.com/bastibl/instant-gnuradio)
 - [AttifyOS - IoT Pentest OS - by Aditya Gupta](https://github.com/adi0x90/attifyos)
 - [Ubutnu Best Host Linux for IoT's - Use LTS](https://www.ubuntu.com/)
+- [Internet of Things - Penetration Testing OS](https://github.com/IoT-PTv)
 
 ### ***Exploitation Tools***
 - [Expliot - IoT Exploitation framework - by Aseemjakhar](https://gitlab.com/expliot_framework/expliot)
@@ -204,10 +212,11 @@
 - [Hands-on with RZUSBstick](https://uk.rs-online.com/web/p/radio-frequency-development-kits/6962415/) 
 - [ZigBee & Z-Wave Security Brief](http://www.riverloopsecurity.com/blog/2018/05/zigbee-zwave-part1/)
 
-### ***BLE Intro and Tools***
+### ***BLE Intro and SW & HW Tools***
   - [Step By Step guide to BLE Understanding and Exploiting](https://github.com/V33RU/BLE-NullBlr)
   - [Traffic Engineering in a  Bluetooth Piconet](http://www.diva-portal.org/smash/get/diva2:833159/FULLTEXT01.pdf)
   - [BLE Characteristics](https://devzone.nordicsemi.com/tutorials/b/bluetooth-low-energy/posts/ble-characteristics-a-beginners-tutorial0)
+   
    Reconnaissance (Active and Passive) with HCI Tools
     - [btproxy](https://github.com/conorpp/btproxy)
     - [hcitool & bluez](https://www.pcsuggest.com/linux-bluetooth-setup-hcitool-bluez)
@@ -217,6 +226,15 @@
     - [BtleJuice Bluetooth Smart Man-in-the-Middle framework](https://github.com/DigitalSecurity/btlejuice)
     - [gattacker](https://github.com/securing/gattacker)
     - [BTLEjack Bluetooth Low Energy Swiss army knife](https://github.com/virtualabs/btlejack)
+    
+   Hardware
+    - [NRFCONNECT - 52840](https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF52840-Dongle)
+    - [EDIMAX](https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF52840-Dongle)
+    - [CSR 4.0](https://www.amazon.in/GENERIC-Ultra-Mini-Bluetooth-Dongle-Adapter/dp/B0117H7GZ6/ref=asc_df_B0117H7GZ6/?tag=googleshopdes-21&linkCode=df0&hvadid=396984700257&hvpos=1o1&hvnetw=g&hvrand=2179727910417729406&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061998&hvtargid=pla-343685677347&psc=1&ext_vrnc=hi)
+    - [ESP32 - Development and learning Bluetooth](https://www.espressif.com/en/products/hardware/esp32/overview)
+    - [Ubertooth](https://github.com/greatscottgadgets/ubertooth/wiki/Ubertooth-One)
+    - [Sena 100](http://www.senanetworks.com/ud100-g03.html)
+    
 ### ***BLE Pentesting Tutorials***
   - [Bluetooth vs BLE Basics](https://github.com/V33RU/BLE-NullBlr)
   - [Intel Edison as Bluetooth LE — Exploit box](https://medium.com/@arunmag/intel-edison-as-bluetooth-le-exploit-box-a63e4cad6580)
@@ -254,8 +272,8 @@
  
 ### ***Hardware Gadgets to pentest***
   - [Bus Pirate](https://www.sparkfun.com/products/12942)
-  - [EEPROM readers](https://www.ebay.com/bhp/eeprom-reader)
-  - [Jtagulator / Jtagenum](https://www.adafruit.com/product/1550)
+  - [EEPROM reader/SOIC Cable](https://www.sparkfun.com/products/13153)
+  - [Jtagulator/Jtagenum](https://www.adafruit.com/product/1550)
   - [Logic Analyzer](https://www.saleae.com/)
   - [The Shikra](https://int3.cc/products/the-shikra)
   - [FaceDancer21 (USB Emulator/USB Fuzzer)](https://int3.cc/products/facedancer21)
@@ -263,7 +281,8 @@
   - [Hak5Gear- Hak5FieldKits](https://hakshop.com/)
   - [Ultra-Mini Bluetooth CSR 4.0 USB Dongle Adapter](https://www.ebay.in/itm/Ultra-Mini-Bluetooth-CSR-4-0-USB-Dongle-Adapter-Black-Golden-with-2-yr-wrnty-/332302813975)
   - [Attify Badge - UART, JTAG, SPI, I2C (w/ headers)](https://www.attify-store.com/products/attify-badge-assess-security-of-iot-devices)
-  - [Ubertooth](https://github.com/greatscottgadgets/ubertooth/wiki/Ubertooth-One)
+  
+  
     
 ### ***Attacking Hardware Interfaces***
    -	[Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
@@ -283,6 +302,11 @@
    
 ### ***SideChannel Attacks***
    - [All Attacks](https://yifan.lu/)
+   
+   
+### ***Pentesting Guides***
+  - [Shodan Pentesting Guide](https://community.turgensec.com/shodan-pentesting-guide/)
+  - [Car Hacking Practical Guide 101](https://medium.com/@yogeshojha/car-hacking-101-practical-guide-to-exploiting-can-bus-using-instrument-cluster-simulator-part-i-cd88d3eb4a53)
    
 ## ***Vulnerable IoT and Hardware Applications***
 
