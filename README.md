@@ -149,11 +149,6 @@
 - [Webthings by Mozilla - RaspberryPi](https://iot.mozilla.org/docs/gateway-getting-started-guide.html)
 
 ********************************************************************************************************************************
-### Labs for Practice
-
-- [IoT Goat](https://github.com/scriptingxss/IoTGoat)
-
-********************************************************************************************************************************
 ### IoT Pentesting OSes
 
 - [Sigint OS- LTE IMSI Catcher](https://www.sigintos.com/downloads/)
@@ -178,6 +173,8 @@
 - [PRET - Printer Exploitation Toolkit](https://github.com/RUB-NDS/PRET)
 - [HAL – The Hardware Analyzer](https://github.com/emsec/hal)
 - [FwAnalyzer (Firmware Analyzer)](https://github.com/cruise-automation/fwanalyzer)
+- [ISF(Industrial Security Exploitation Framework](https://github.com/w3h/isf)
+- [PENIOT: Penetration Testing Tool for IoT](https://github.com/yakuza8/peniot)
 
 ********************************************************************************************************************************
 ### Reverse Engineering Tools
@@ -416,6 +413,8 @@
 ******************************************************************************************************************************** 
 ## Vulnerable IoT and Hardware Applications
 
+  - IoT Goat : https://github.com/scriptingxss/IoTGoat
+
   - IoT : https://github.com/Vulcainreo/DVID
 
   - Safe : https://insinuator.net/2016/01/damn-vulnerable-safe/
@@ -428,8 +427,8 @@
 
   - SS7 Network: https://www.blackhat.com/asia-17/arsenal.html#damn-vulnerable-ss7-network
 
- -  VoIP : https://www.vulnhub.com/entry/hacklab-vulnvoip,40/
-
+  -  VoIP : https://www.vulnhub.com/entry/hacklab-vulnvoip,40/
+ 
 
 *******************************************************************************************************************************
 ## follow the people
