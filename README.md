@@ -5,7 +5,7 @@
 ## Approach Methodology
 
 #####  1. Network 
-#####  2. Web (Front & Backend and Web services
+#####  2. Web (Front & Backend and Web services)
 #####  3. Mobile App (Android & iOS)
 #####  4. Wireless Connectivity (Zigbee , WiFi , Bluetooth , etc)
 #####  5. Firmware Pentesting (OS of IoT Devices)
@@ -56,6 +56,7 @@
 - [The Art of Pcb Reverse Engineering](https://www.amazon.in/Art-Pcb-Reverse-Engineering-Unravelling/dp/1499323441)
 - [Internet of Things Security Encyclopedia](https://iot-security.wiki/) - Openbook
 - [Applied Cyber Security and the Smart Grid-ICS](https://www.amazon.com/Applied-Cyber-Security-Smart-Grid/dp/1597499986/)
+- [Gray Hat Hacking: The Ethical Hacker's Handbook, Fifth Edition](https://www.amazon.in/Gray-Hat-Hacking-Ethical-Handbook-ebook/dp/B07D3J9J4H)
 
 ********************************************************************************************************************************
 ### Blogs for iotpentest
@@ -160,7 +161,7 @@
 - [EmbedOS - Embedded security testing virtual machine](https://github.com/scriptingxss/EmbedOS)
 - [Skywave Linux- Software Defined Radio for Global Online Listening](https://skywavelinux.com/)
 - [A Small, Scalable Open Source RTOS for IoT Embedded Devices](https://www.zephyrproject.org/)
-
+- [ICS - Controlthings.io](https://www.controlthings.io/platform)
 
 ********************************************************************************************************************************
 ### Exploitation Tools
@@ -307,7 +308,8 @@
   - [Bluetooth Smartlocks](https://www.getkisi.com/blog/smart-locks-hacked-bluetooth-ble)
   - [I hacked MiBand 3](https://medium.com/@yogeshojha/i-hacked-xiaomi-miband-3-and-here-is-how-i-did-it-43d68c272391)
   - [GATTacking Bluetooth Smart Devices](https://securing.pl/en/gattacking-bluetooth-smart-devices-introducing-a-new-ble-proxy-tool/index.html)
-  
+  - [blueooth beacon vulnerability](https://www.beaconzone.co.uk/blog/category/security/)
+  - [Sweyntooth Vulnerabilties](https://asset-group.github.io/disclosures/sweyntooth/)
 
 ********************************************************************************************************************************
 ### Mobile security (Android & iOS)
@@ -347,6 +349,7 @@
  - [Emulating ARM Router Firmware](https://azeria-labs.com/emulating-arm-firmware/)
  - [Reversing Firmware With Radare](https://www.bored-nerds.com/reversing/radare/automotive/2019/07/07/reversing-firmware-with-radare.html)
  - [Samsung Firmware Magic](https://github.com/chrivers/samsung-firmware-magic)
+ - [Qiling & Binary Emulation for automatic unpacking](https://kernemporium.github.io/articles/en/auto_unpacking/m.html)
  
 ********************************************************************************************************************************
 ### Firmware samples to pentest
@@ -400,6 +403,8 @@
 ### SideChannel Attacks
 
    - [All Attacks](https://yifan.lu/)
+   - [AttacksonImplementationsCourseBook](https://github.com/Yossioren/AttacksonImplementationsCourseBook)
+   - [fuzzing, binary analysis, IoT security, and general exploitation](https://github.com/0xricksanchez/paper_collection)
    
 ********************************************************************************************************************************   
 ### Awesome IoT Pentesting Guides
