@@ -1,17 +1,71 @@
-# IoT Pentesting 101 && IoT Security 101	![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) 
+![](https://github.com/V33RU/IoTSecurity101/blob/master/logo.png)
+
+![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) 
 
 
 ********************************************************************************************************************************
-## Approach Methodology
+#### Approach Methodology
 
-#####  1. Network 
-#####  2. Web (Front & Backend and Web services)
-#####  3. Mobile App (Android & iOS)
-#####  4. Wireless Connectivity (Zigbee , WiFi , Bluetooth , etc)
-#####  5. Firmware Pentesting (OS of IoT Devices)
-#####  6. Hardware Hacking & Fault Injections & SCA Attacks
-#####  7. Storage Medium
-#####  8. I/O Ports
+ - ***1. Network***
+ - ***2. Web (Front & Backend and Web services)***
+ - ***3. Mobile App (Android & iOS)***
+ - ***4. Wireless Connectivity (Zigbee , WiFi , Bluetooth , etc)***
+ - ***5. Firmware Pentesting (OS of IoT Devices)***
+ - ***6. Hardware Hacking & Fault Injections & SCA Attacks***
+ - ***7. Storage Medium***
+ - ***8. I/O Ports***
+ 
+ 
+## Contents 
+ 
+ - IoT Security information
+   - [IoT Security Chat groups](#Chat-groups-for-IoT-Security)
+   - [Books](#Books-For-IoT-Pentesting)
+   - [Blogs](#Blogs-for-iotpentest)
+   - [Cheatsheets](#Awesome-CheatSheets)
+   - [Search Engines](#Search-Engines-for-IoT-Openly-devices)
+   - [CTF](#CTF-For-IoT-And-Embeddded)
+   - [Youtube](#YouTube-Channels-for-IoT-Pentesting)
+   - [Exploitation Tools](#Exploitation-Tools)
+   - [IoT Pentesting OSes](#IoT-Pentesting-OSes)
+   - [IoT Vulnerabilites Checking Guides](#IoT-Vulnerabilites-Checking-Guides)
+   - [IoT Labs](#Vulnerable-IoT-and-Hardware-Applications)
+   - [Awesome IoT Pentesting Guides](#Awesome-IoT-Pentesting-Guides)
+   
+ - Network
+ - Web IoT Message Protocols
+ 	- [MQTT](#MQTT)
+	- [CoAP](#CoAP)
+	
+ - Mobile app
+ 	- [Mobile security (Android & iOS)](#Mobile-security-(Android-&-iOS))
+	
+ - Wireless Protocols
+ 	- [RADIO HACKING STARTING GUIDE](#RADIO-HACKER-QUICK-START-GUIDE)
+	- [BTS](#BTS)
+	- [GSM & SS7 Pentesting](#GSM-SS7-Pentesting)
+	- [Zigbee](#Zigbee-ALL-Stuff)
+	- [Bluetooth](#BLE-Intro-and-SW-HW-Tools-to-pentest)
+
+ - Firmware
+ 	- [Reverse Engineering Tools](#Reverse-Engineering-Tools)
+	- [Online Assemblers](#Online-Assemblers)
+	- [ARM](#ARM)
+	- [Pentesting Firmwares and emulating and analyzing](#Pentesting-Firmwares-and-emulating-and-analyzing)
+	- [Firmware samples to pentest](#Firmware-samples-to-pentest)
+	
+	
+ - Hardware
+    - [IoT Hardware Intro](#IoT-hardware-Overview-and-Hacking)
+    - [IoT Hardware hacking Intro]
+    - [Required hardware to pentest IoT](#Hardware-Gadgets-to-pentest)
+    - [Hardware interfaces](#Attacking-Hardware-Interfaces)
+   	- [SPI](#SPI)
+ 	- [UART](#UART)
+	- [JTAG](#JTAG)
+    - [SideChannel Attacks & Glitching attacks](#SideChannel-Attacks-and-Glitching-attacks)
+	
+ - [Storage Medium](#Storage-Medium)
   
 ********************************************************************************************************************************
 ### To seen Hacked devices
@@ -27,16 +81,19 @@
 - [Subaru Head Unit Jailbreak](https://github.com/sgayou/subaru-starlink-research/blob/master/doc/README.md)
 - [Jeep Hack](http://illmatics.com/Remote%20Car%20Hacking.pdf)
 - [Dropcam hacking](https://www.defcon.org/images/defcon-22/dc-22-presentations/Moore-Wardle/DEFCON-22-Colby-Moore-Patrick-Wardle-Synack-DropCam-Updated.pdf)
+- [Printer Hacking live sessions - gamozolabs](https://www.youtube.com/playlist?list=PLSkhUfcCXvqHS4Bqz804OAZqND6bk7OG6)
 
 
 ********************************************************************************************************************************
 ### Chat groups for IoT Security
 
-- <https://t.me/iotsecurity1011>
-- <https://www.reddit.com/r/IoTSecurity101/>
-- <https://t.me/hardwareHackingBrasil>
-- <https://t.me/joinchat/JAMxOg5YzdkGjcF3HmNgQw>
-- <https://discord.gg/EH9dxT9>
+- IoTSecurity101 Telegram - <https://t.me/iotsecurity1011>
+- IoTSecurity101 Reddit   - <https://www.reddit.com/r/IoTSecurity101/>
+- IoTSecurity101 Discord  -  <https://discord.gg/EH9dxT9>
+- hardware hacking Telegram - <https://t.me/hardwareHackingBrasil>
+- NForceIT Telegram 	-  <https://t.me/joinchat/JAMxOg5YzdkGjcF3HmNgQw>
+- RFID Discord group  - <https://discord.gg/Z43TrcVyPr>
+- ICS Discord group   - <https://discord.com/invite/CmDDsFK>
 
 ********************************************************************************************************************************
 ### Books For IoT Pentesting
@@ -57,40 +114,44 @@
 - [Internet of Things Security Encyclopedia](https://iot-security.wiki/) - Openbook
 - [Applied Cyber Security and the Smart Grid-ICS](https://www.amazon.com/Applied-Cyber-Security-Smart-Grid/dp/1597499986/)
 - [Gray Hat Hacking: The Ethical Hacker's Handbook, Fifth Edition](https://www.amazon.in/Gray-Hat-Hacking-Ethical-Handbook-ebook/dp/B07D3J9J4H)
+- [Practical IoT Hacking](https://nostarch.com/practical-iot-hacking)
 
 ********************************************************************************************************************************
 ### Blogs for iotpentest
 
-1. https://payatu.com/blog/
-2. http://jcjc-dev.com/
-3. https://w00tsec.blogspot.in/
-4. http://www.devttys0.com/
-5. https://www.rtl-sdr.com/
-6. https://keenlab.tencent.com/en/
-7. https://courk.cc/
-8. https://iotsecuritywiki.com/
-9. https://cybergibbons.com/
-10. http://firmware.re/
-11. https://iotmyway.wordpress.com/
-12. http://blog.k3170makan.com/
-13. https://blog.tclaverie.eu/
-14. http://blog.besimaltinok.com/category/iot-pentest/
-15. https://ctrlu.net/
-16. http://iotpentest.com/
-17. https://blog.attify.com
-18. https://duo.com/decipher/
-19. http://www.sp3ctr3.me
-20. http://blog.0x42424242.in/
-21. https://dantheiotman.com/
-22. https://blog.danman.eu/
-23. https://quentinkaiser.be/
-24. https://blog.quarkslab.com
-25. https://blog.ice9.us/
-26. https://labs.f-secure.com/
-27. https://mg.lol/blog/
-28. https://cjhackerz.net/
-29. https://github.com/sponsors/bunnie/
-
+- https://payatu.com/blog/
+- http://jcjc-dev.com/
+- https://w00tsec.blogspot.in/
+- http://www.devttys0.com/
+- https://wrongbaud.github.io/
+- https://embeddedbits.org/
+- https://www.rtl-sdr.com/
+- https://keenlab.tencent.com/en/
+- https://courk.cc/
+- https://iotsecuritywiki.com/
+- https://cybergibbons.com/
+- http://firmware.re/
+- http://blog.k3170makan.com/
+- https://blog.tclaverie.eu/
+- http://blog.besimaltinok.com/category/iot-pentest/
+- https://ctrlu.net/
+- http://iotpentest.com/
+- https://blog.attify.com
+- https://duo.com/decipher/
+- http://www.sp3ctr3.me
+- http://blog.0x42424242.in/
+- https://dantheiotman.com/
+- https://blog.danman.eu/
+- https://quentinkaiser.be/
+- https://blog.quarkslab.com
+- https://blog.ice9.us/
+- https://labs.f-secure.com/ 
+- https://mg.lol/blog/
+- https://cjhackerz.net/
+- https://github.com/sponsors/bunnie/
+- https://iotmyway.wordpress.com/
+- https://www.synacktiv.com/publications.html
+- http://blog.cr4.sh/
 
 ********************************************************************************************************************************
 ### Awesome CheatSheets
@@ -108,7 +169,7 @@
 - [ONYPHE](https://www.onyphe.io/)
 
 ********************************************************************************************************************************
-### CTF For IoT's And Embeddded
+### CTF For IoT And Embeddded
 
 - https://github.com/hackgnar/ble_ctf
 - https://www.microcorruption.com/
@@ -141,7 +202,6 @@
 
 - [Reflecting upon OWASP TOP-10 IoT Vulnerabilities](https://embedi.org/blog/reflecting-upon-owasp-top-10-iot-vulnerabilities/)
 - [OWASP IoT Top 10 2018 Mapping Project](https://scriptingxss.gitbook.io/owasp-iot-top-10-mapping-project/)
-- [Firmware Pentest Guide](https://scriptingxss.gitbook.io/firmware-security-testing-methodology/)
 - [Hardware toolkits for IoT security analysis](https://defcon-nn.ru/0x0B/Hardware%20toolkits%20for%20IoT%20security%20analysis.pdf)
 
 ********************************************************************************************************************************
@@ -176,6 +236,7 @@
 - [FwAnalyzer (Firmware Analyzer)](https://github.com/cruise-automation/fwanalyzer)
 - [ISF(Industrial Security Exploitation Framework](https://github.com/w3h/isf)
 - [PENIOT: Penetration Testing Tool for IoT](https://github.com/yakuza8/peniot)
+- [MQTT-PWN](https://github.com/akamai-threat-research/mqtt-pwn)
 
 ********************************************************************************************************************************
 ### Reverse Engineering Tools
@@ -205,50 +266,51 @@
 - [The Seven Best MQTT Client Tools](https://www.hivemq.com/blog/seven-best-mqtt-client-tools)
 - [A Guide to MQTT by Hacking a Doorbell to send Push Notifications](https://youtu.be/J_BAXVSVPVI)
 - [Are smart homes vulnerable to hacking](https://blog.avast.com/mqtt-vulnerabilities-hacking-smart-homes)
+- [Deep Learning UDF for KSQL / ksqlDB for Streaming Anomaly Detection of MQTT IoT Sensor Data](https://github.com/kaiwaehner/ksql-udf-deep-learning-mqtt-iot)
+- [Authenticating & Authorizing Devices using MQTT with Auth0](https://auth0.com/docs/integrations/authenticate-devices-using-mqtt)
+- [Development information for the MQTT with hardware](https://www.hackster.io/search?i=projects&q=Mqtt)
+- [Understanding the MQTT Protocol Packet Structure](http://www.steves-internet-guide.com/mqtt-protocol-messages-overview/)
+- [R7-2019-18: Multiple Hickory Smart Lock Vulnerabilities](https://blog.rapid7.com/2019/08/01/r7-2019-18-multiple-hickory-smart-lock-vulnerabilities/)
+- [IoT Live Demo: 100.000 Connected Cars With Kubernetes, Kafka, MQTT, TensorFlow](https://dzone.com/articles/iot-live-demo-100000-connected-cars-with-kubernete)
+
 
 #### Softwares
-- [Mosquitto](https://mosquitto.org/)
+- [Mosquitto-An open source MQTT broker](https://mosquitto.org/)
 - [HiveMQ](https://www.hivemq.com/)
 - [MQTT Explorer](http://mqtt-explorer.com/)
+- [MQTT proxy - IoXY](https://blog.nviso.eu/2020/07/06/introducing-ioxy-an-open-source-mqtt-intercepting-proxy/)
+- [MQTT Broker Security - 101](https://payatu.com/blog/dattatray/iot-security-%E2%80%93-part-12-mqtt-broker-security---101)
+- [Welcome to MQTT-PWN!](https://mqtt-pwn.readthedocs.io/en/latest/)
 
 #### CoAP
 
 - [Introduction](http://coap.technology/)
 - [CoAP client Tools](http://coap.technology/tools.html)
 - [CoAP Pentest Tools](https://bitbucket.org/aseemjakhar/expliot_framework)
-- [Nmap](https://nmap.org/nsedoc/lib/coap.html)
+- [Nmap - NSE for coap](https://nmap.org/nsedoc/lib/coap.html)
+
 
 ********************************************************************************************************************************
-### Automobile
+### RADIO HACKER QUICK START GUIDE
 
-  CanBus
-- [Introduction and protocol Overview](https://www.youtube.com/watch?v=FqLDpHsxvf8)	
-- [PENTESTING VEHICLES WITH CANTOOLZ](https://www.blackhat.com/docs/eu-16/materials/eu-16-Sintsov-Pen-Testing-Vehicles-With-Cantoolz.pdf)
-- [Building a Car Hacking Development Workbench: Part1](https://blog.rapid7.com/2017/07/11/building-a-car-hacking-development-workbench-part-1/)
-- [CANToolz - Black-box CAN network analysis framework](https://github.com/CANToolz/CANToolz)
-- [PLAYING WITH CAN BUS](https://blog.danman.eu/playing-with-can-bus/)
-
-********************************************************************************************************************************
-### Radio IoT Protocols Overview
-
-- [SDR Notes](https://github.com/notpike/SDR-Notes)
+- [SDR Notes - Radio IoT Protocols Overview](https://github.com/notpike/SDR-Notes)
 - [Understanding Radio](https://www.taitradioacademy.com/lessons/introduction-to-radio-communications-principals/)
-- [Signal Processing]()
-- [Software Defined Radio](https://www.allaboutcircuits.com/technical-articles/introduction-to-software-defined-radio/)
-- [Gnuradio](https://wiki.gnuradio.org/index.php/Guided_Tutorial_GRC#Tutorial:_GNU_Radio_Companion)
-- [Creating a flow graph](https://blog.didierstevens.com/2017/09/19/quickpost-creating-a-simple-flow-graph-with-gnu-radio-companion/)
-- [Analysing radio signals](https://www.rtl-sdr.com/analyzing-433-mhz-transmitters-rtl-sdr/)
+- [Introduction to Software Defined Radio](https://www.allaboutcircuits.com/technical-articles/introduction-to-software-defined-radio/)
+- [Introduction Gnuradio companion](https://wiki.gnuradio.org/index.php/Guided_Tutorial_GRC#Tutorial:_GNU_Radio_Companion)
+- [Creating a flow graph in gunradiocompanion](https://blog.didierstevens.com/2017/09/19/quickpost-creating-a-simple-flow-graph-with-gnu-radio-companion/)
+- [Analysing radio signals 433Mhz ](https://www.rtl-sdr.com/analyzing-433-mhz-transmitters-rtl-sdr/)
 - [Recording specific radio signal](https://www.rtl-sdr.com/freqwatch-rtl-sdr-frequency-scanner-recorder/)
-- [Replay Attacks](https://www.rtl-sdr.com/tutorial-replay-attacks-with-an-rtl-sdr-raspberry-pi-and-rpitx/)
+- [Replay Attacks with raspberrypi -rpitx](https://www.rtl-sdr.com/tutorial-replay-attacks-with-an-rtl-sdr-raspberry-pi-and-rpitx/)
 
-********************************************************************************************************************************
-### Base transceiver station (BTS
+### Cellular Hacking & GSM & BTS
 
+#### BTS
+
+- [Awesome-Cellular-Hacking](https://github.com/W00t3k/Awesome-Cellular-Hacking/blob/master/README.md)
 - [what is base tranceiver station](https://en.wikipedia.org/wiki/Base_transceiver_station)
-- [How to Build Your Own Rogue GSM BTS](https://www.evilsocket.net/2016/03/31/how-to-build-your-own-rogue-gsm-bts-for-fun-and-profit/)
+- [How to Build Your Own Rogue GSM BTS](https://l33t.gg/how-to-build-a-rogue-gsm-bts/)
 
-********************************************************************************************************************************
-### GSM & SS7 Pentesting
+#### GSM SS7 Pentesting
 
 - [Introduction to GSM Security](http://www.pentestingexperts.com/introduction-to-gsm-security/)
 - [GSM Security 2 ](https://www.ehacking.net/2011/02/gsm-security-2.html)
@@ -263,15 +325,34 @@
 - [Breaking LTE on Layer Two](https://alter-attack.net/)
 
 ********************************************************************************************************************************
-### Zigbee & Zwave
+### Zigbee ALL Stuff
 
 - [Introduction and protocol Overview](http://www.informit.com/articles/article.aspx?p=1409785)
 - [Hacking Zigbee Devices with Attify Zigbee Framework](https://blog.attify.com/hack-iot-devices-zigbee-sniffing-exploitation/)
 - [Hands-on with RZUSBstick](https://uk.rs-online.com/web/p/radio-frequency-development-kits/6962415/) 
 - [ZigBee & Z-Wave Security Brief](http://www.riverloopsecurity.com/blog/2018/05/zigbee-zwave-part1/)
+- [Hacking ZigBee Networks](https://resources.infosecinstitute.com/topic/hacking-zigbee-networks/)
+- [Zigator: Analyzing the Security of Zigbee-Enabled Smart Homes](https://mews.sv.cmu.edu/papers/wisec-20.pdf)
+- [Security Analysis of Zigbee Networks with Zigator and GNU Radio](https://mews.sv.cmu.edu/research/zigator/testbed-grcon2020-slides.pdf)
+- [Low-Cost ZigBee Selective Jamming](https://www.bastibl.net/reactive-zigbee-jamming/)
+
+#### SW TOOLS
+- [zigbear](https://github.com/philippnormann/zigbear)
+- [ZigDiggity](https://github.com/BishopFox/zigdiggity)
+- [Zigator](https://github.com/akestoridis/zigator)
+- [Z3sec](https://github.com/IoTsec/Z3sec)
+
+
+#### Hardware Tools for Zigbee
+- [APIMOTE IEEE 802.15.4/ZIGBEE SNIFFING HARDWARE](https://www.riverloopsecurity.com/projects/apimote/)
+- [RaspBee-The Raspberry Pi Zigbee gateway](https://phoscon.de/en/raspbee/)
+- [USRP SDR 2](https://www.ettus.com/products/)
+- [ATUSB IEEE 802.15.4 USB Adapter](http://shop.sysmocom.de/products/atusb)
+- [nRF52840-Dongle](https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF52840-Dongle)
+- []()
 
 ********************************************************************************************************************************
-### BLE Intro and SW & HW Tools to pentest
+### BLE Intro and SW-HW Tools to pentest
 
 - [Step By Step guide to BLE Understanding and Exploiting](https://github.com/V33RU/BLE-NullBlr)
 - [Traffic Engineering in a  Bluetooth Piconet](http://www.diva-portal.org/smash/get/diva2:833159/FULLTEXT01.pdf)
@@ -290,7 +371,7 @@
    - [BTLEjack Bluetooth Low Energy Swiss army knife](https://github.com/virtualabs/btlejack)
     
  
- #### Hardware
+ #### Hardware for bluetooth hacking
   
    - [NRFCONNECT - 52840](https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF52840-Dongle)
    - [EDIMAX](https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF52840-Dongle)
@@ -302,6 +383,7 @@
 #### BLE Pentesting Tutorials
 
   - [Bluetooth vs BLE Basics](https://github.com/V33RU/BLE-NullBlr)
+  - [Finding bugs in Bluetooth](https://bluetooth.lol/)
   - [Intel Edison as Bluetooth LE — Exploit box](https://medium.com/@arunmag/intel-edison-as-bluetooth-le-exploit-box-a63e4cad6580)
   - [How I Reverse Engineered and Exploited a Smart Massager](https://medium.com/@arunmag/how-i-reverse-engineered-and-exploited-a-smart-massager-ee7c9f21bf33)
   - [My journey towards Reverse Engineering a Smart Band — Bluetooth-LE RE](https://medium.com/@arunmag/my-journey-towards-reverse-engineering-a-smart-band-bluetooth-le-re-d1dea00e4de2)
@@ -310,6 +392,7 @@
   - [GATTacking Bluetooth Smart Devices](https://securing.pl/en/gattacking-bluetooth-smart-devices-introducing-a-new-ble-proxy-tool/index.html)
   - [blueooth beacon vulnerability](https://www.beaconzone.co.uk/blog/category/security/)
   - [Sweyntooth Vulnerabilties](https://asset-group.github.io/disclosures/sweyntooth/)
+  - [AIRDROP_LEAK - sniffs BLE traffic and displays status messages from Apple devices](https://github.com/hexway/apple_bleee)
 
 ********************************************************************************************************************************
 ### Mobile security (Android & iOS)
@@ -339,9 +422,9 @@
 ********************************************************************************************************************************
 ### Pentesting Firmwares and emulating and analyzing
 
+ - [EMBA-An analyzer for embedded Linux firmware](https://p4cx.medium.com/emba-b370ce503602)
  - [Firmware analysis and reversing](https://www.owasp.org/index.php/IoT_Firmware_Analysis)
  - [Firmware emulation with QEMU](https://www.youtube.com/watch?v=G0NNBloGIvs)
- - [Dumping Firmware using Buspirate](http://iotpentest.com/tag/pulling-firmware/)
  - [Reversing ESP8266 Firmware](https://boredpentester.com/reversing-esp8266-firmware-part-1/)
  - [Emulating Embedded Linux Devices with QEMU](https://www.novetta.com/2018/02/emulating-embedded-linux-devices-with-qemu/?__cf_chl_captcha_tk__=2167fb6cf097848dbf0dea8e4ecccc66f2a55e55-1585030085-0-AVfO7wG_mHgvnIgeIl-aiKLNW1IMb5IMLyqLOSOLydnZFzhyAyySWgfKvjvllAtYtmpbJjnaTlwyaWiO2kHXH4APqLuott0R7UReYCTZ3u--g4AJBK4eONEL2bTJcAHg3fzmXhrC-3iAqccNQC4jx1RWEz60y_MKFq63NVeoE1pC0EBYWkk7VqDWusBFbgpj6zRNv0ifKLc3oLYJck-oG13jeSbPISVLMCn6bCHVLaTp2gW7qG6GRELIWgdyfP9viyMDSAww3u-R1NmUgRQzctXIYMWH1MdL5p8lqbSpCa160cW3JaZ16IxT7iP1HkCBurx7rCOVP3DAcI8zrc19V9mi-jU9nXIW0Xf9eIpqlUP-R_txfNw4vF10PwIGKmg0Cpl2IDuY1ty3J8koQkdvxfE)
  - [Emulating Embedded Linux Systems with QEMU](https://www.novetta.com/2018/02/emulating-embedded-linux-systems-with-qemu/?__cf_chl_captcha_tk__=9dd83a08cffb28fae75286f63f399c34eec56852-1585030087-0-AblGAUd4LCDVbghNgQyfL5hgPXNC8pUcLIAbPUpx2tBOb_L4gVVc1sZ7Ivg0g--06WpkdpeV-kylZu3T_Yqgr7GdFpc2cKzxATdc_bsEV7uu1ljIctFloHTW_B1vvjFAe3QXdex4kkn2D4HuQiw9WLszvO2Ff8SvvfEpHoBumOavj-c2iXcEb2dDFMoK3_HB_3-y7q_BEAX3xqDCjqz7TpcoIWt-wTSQwRfx-VuBfO87hrTsX43yzq6BNjCE9s15ZQmPp_NouYIHNMnx3augAfkwZBSUA0r43GbA--3jLmJsTe_qvcn7gMz_HAR-GpnA_Usn_cr94VqtyNpl0vEsC1OMf48oBMMoFQJA6Jjn1hGPv5hV4M4aBtJrTnFoRP2YGwxAyNTM3Df9qw1iyBB8r58)
@@ -350,6 +433,8 @@
  - [Reversing Firmware With Radare](https://www.bored-nerds.com/reversing/radare/automotive/2019/07/07/reversing-firmware-with-radare.html)
  - [Samsung Firmware Magic](https://github.com/chrivers/samsung-firmware-magic)
  - [Qiling & Binary Emulation for automatic unpacking](https://kernemporium.github.io/articles/en/auto_unpacking/m.html)
+ - [Reverse engineering with #Ghidra: Breaking an embedded firmware encryption scheme](https://www.youtube.com/watch?v=4urMITJKQQs&ab_channel=stacksmashing)
+ - [Simulating and hunting firmware vulnerabilities with Qiling](https://blog.vincss.net/2020/12/pt007-simulating-and-hunting-firmware-vulnerabilities-with-Qiling.html?m=1&s=09)
  
 ********************************************************************************************************************************
 ### Firmware samples to pentest
@@ -357,12 +442,18 @@
  - [Download From here by firmware.center](https://firmware.center/)
 
 ********************************************************************************************************************************
-### IoT hardware Overview
+### Storage Medium 
+ - [HARDWARE HACKING 101: IDENTIFYING AND DUMPING EMMC FLASH](https://www.riverloopsecurity.com/blog/2020/03/hw-101-emmc/)
+ - [EMMC DATA RECOVERY FROM DAMAGED SMARTPHONE](https://dangerouspayload.com/2018/10/24/emmc-data-recovery-from-damaged-smartphone/)
+ - [Another bunch of Atricles for EMMC](https://hackaday.com/tag/emmc/)
+ - [Unleash your smart-home devices: Vacuum Cleaning Robot Hacking](https://media.ccc.de/v/34c3-9147-unleash_your_smart-home_devices_vacuum_cleaning_robot_hacking#t=1810)
+
+********************************************************************************************************************************
+### IoT hardware Overview and Hacking
 
  - [IoT Hardware Guide](https://www.postscapes.com/internet-of-things-hardware/)	
  
-********************************************************************************************************************************
-### Hardware Gadgets to pentest
+#### Hardware Gadgets to pentest
 
   - [Bus Pirate](https://www.sparkfun.com/products/12942)
   - [EEPROM reader/SOIC Cable](https://www.sparkfun.com/products/13153)
@@ -376,35 +467,49 @@
   - [Attify Badge - UART, JTAG, SPI, I2C (w/ headers)](https://www.attify-store.com/products/attify-badge-assess-security-of-iot-devices)
   
   
-********************************************************************************************************************************
-### Attacking Hardware Interfaces
+#### Attacking Hardware Interfaces
 
-   -	[Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
-   -  [Reverse Engineering Serial Ports](http://www.devttys0.com/2012/11/reverse-engineering-serial-ports/)
-   -  [REVERSE ENGINEERING ARCHITECTURE AND PINOUT OF CUSTOM ASICS](https://sec-consult.com/en/blog/2019/02/reverse-engineering-architecture-pinout-plc/)
-   -  [ChipWhisperer - Hardware attacks](http://wiki.newae.com/Main_Page)
+   - [Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
+   - [Reverse Engineering Serial Ports](http://www.devttys0.com/2012/11/reverse-engineering-serial-ports/)
+   - [REVERSE ENGINEERING ARCHITECTURE AND PINOUT OF CUSTOM ASICS](https://sec-consult.com/en/blog/2019/02/reverse-engineering-architecture-pinout-plc/)
+   - [ChipWhisperer - Hardware attacks](http://wiki.newae.com/Main_Page)
    
-********************************************************************************************************************************
-### UART
+
+#### SPI
+
+   - [Reading FlashROMS](https://www.youtube.com/watch?v=LxWkA1Uz2aA&ab_channel=Defenceindepth)
+   - [Dumping the firmware From Router using BUSPIRATE - SPI Dump](https://www.iotpentest.com/2019/06/dumping-firmware-from-device-using.html)
+   - [How to Flash Chip of a Router With a Programmer | TP-Link Router Repair & MAC address change](https://www.youtube.com/watch?v=fbt4OJXJdOc&ab_channel=ElectricalProjects%5BCreativeLab%5D)
+   - [Extracting Flash Memory over SPI](https://gracefulsecurity.com/extracting-flash-memory-over-spi/)
+   
+#### UART
 
    - [Identifying UART interface](https://www.mikroe.com/blog/uart-serial-communication)
    - [onewire-over-uart](https://github.com/dword1511/onewire-over-uart)
    - [Accessing sensor via UART](http://home.wlu.edu/~levys/courses/csci250s2017/SensorsSignalsSerialSockets.pdf)
    - [Using UART to connect to a chinese IP cam](https://www.davidsopas.com/using-uart-to-connect-to-a-chinese-ip-cam/)
    - [A journey into IoT – Hardware hacking: UART](https://techblog.mediaservice.net/2019/03/a-journey-into-iot-hardware-hacking-uart/)
+   - [UARTBruteForcer](https://github.com/FireFart/UARTBruteForcer)
+   - [UART Connections and Dynamic analysis on Linksys e1000](https://www.youtube.com/watch?v=ix6rSV2Dj44&ab_channel=Defenceindepth)
 
-********************************************************************************************************************************
-### JTAG
+
+#### JTAG
 
    - [JTAG Explained (finally!)](https://blog.senr.io/blog/jtag-explained)
-   - [NAND Glitching Attack](http://www.brettlischalk.com/posts/nand-glitching-wink-hub-for-root)
-   
-********************************************************************************************************************************   
-### SideChannel Attacks
+   - [Buspirate JTAG Connections - Openocd](https://research.kudelskisecurity.com/2014/05/01/jtag-debugging-made-easy-with-bus-pirate-and-openocd/#:~:text=The%20Bus%20Pirate%20is%20an,protocols%20like%20I%C2%B2C%20and%20SPI.)
 
-   - [All Attacks](https://yifan.lu/)
-   - [AttacksonImplementationsCourseBook](https://github.com/Yossioren/AttacksonImplementationsCourseBook)
+#### SideChannel Attacks and Glitching attacks
+
+   - [Side channel attacks](https://yifan.lu/)
+   - [Attacks on Implementations of Secure Systems](https://github.com/Yossioren/AttacksonImplementationsCourseBook)
    - [fuzzing, binary analysis, IoT security, and general exploitation](https://github.com/0xricksanchez/paper_collection)
+   - [NAND Glitching Attack](http://www.brettlischalk.com/posts/nand-glitching-wink-hub-for-root)
+   - [Voltage Glitching Attack]()
+   - [Espressif ESP32: Bypassing Encrypted Secure Boot(CVE-2020-13629)](https://raelize.com/blog/espressif-esp32-bypassing-encrypted-secure-boot-cve-2020-13629/)
+   - [Voltage Glitching Attack using SySS iCEstick Glitcher](https://www.youtube.com/watch?v=FVUhVewFmxw&feature=youtu.be&ab_channel=SySSPentestTV)
+   - [Samy Kamkar - FPGA Glitching & Side Channel Attacks](https://www.youtube.com/watch?v=6Pf3pY3GxBM&ab_channel=LiveOverflow)
+   - [Breaking AES with ChipWhisperer - Piece of scake (Side Channel Analysis 100)](https://www.youtube.com/watch?v=FktI4qSjzaE&ab_channel=LiveOverflow)
+   - [https://www.youtube.com/watch?v=4urMITJKQQs&ab_channel=stacksmashing](https://arstechnica.com/information-technology/2019/06/researchers-use-rowhammer-bitflips-to-steal-2048-bit-crypto-key/)
    
 ********************************************************************************************************************************   
 ### Awesome IoT Pentesting Guides
@@ -413,7 +518,9 @@
   - [Car Hacking Practical Guide 101](https://medium.com/@yogeshojha/car-hacking-101-practical-guide-to-exploiting-can-bus-using-instrument-cluster-simulator-part-i-cd88d3eb4a53)
   - [OWASP Firmware Security Testing Methodology
 ](https://scriptingxss.gitbook.io/firmware-security-testing-methodology/)
-  
+  - [awesome-bluetooth-security](https://github.com/engn33r/awesome-bluetooth-security)
+  - [Firmware Pentest Guide](https://scriptingxss.gitbook.io/firmware-security-testing-methodology/)
+
  
 ******************************************************************************************************************************** 
 ## Vulnerable IoT and Hardware Applications
@@ -432,10 +539,10 @@
 
   - SS7 Network: https://www.blackhat.com/asia-17/arsenal.html#damn-vulnerable-ss7-network
 
-  -  VoIP : https://www.vulnhub.com/entry/hacklab-vulnvoip,40/
+  - VoIP : https://www.vulnhub.com/entry/hacklab-vulnvoip,40/
  
 
-*******************************************************************************************************************************
+******************************************************************************************************************************** 
 ## follow the people
 
 -  [Jilles](https://twitter.com/jilles_com)
