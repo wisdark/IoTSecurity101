@@ -155,6 +155,7 @@ by Fotios Chantzis, Ioannis Stais, Paulino Calderon, Evangelos Deirmentzoglou, B
 - https://iotmyway.wordpress.com/
 - https://www.synacktiv.com/publications.html
 - http://blog.cr4.sh/
+- https://ktln2.org/
 
 ********************************************************************************************************************************
 ### Awesome CheatSheets
@@ -194,6 +195,7 @@ by Fotios Chantzis, Ioannis Stais, Paulino Calderon, Evangelos Deirmentzoglou, B
 - [Ghidra Ninja](https://www.youtube.com/channel/UC3S8vxwRfqLBdIhgRlDRVzw)
 - [Cyber Gibbons](https://www.youtube.com/channel/UC_IYERSoSwdR7AA5P41mYTA)
 - [Scanline](https://www.youtube.com/channel/UCaEgw3321ct_PE4PJvdhXEQ)
+- [Aaron Christophel](https://www.youtube.com/c/12002230/videos)
 
 ********************************************************************************************************************************
 ### Vehicle Security Resources
@@ -464,7 +466,8 @@ by Fotios Chantzis, Ioannis Stais, Paulino Calderon, Evangelos Deirmentzoglou, B
 ********************************************************************************************************************************
 ### IoT hardware Overview and Hacking
 
- - [IoT Hardware Guide](https://www.postscapes.com/internet-of-things-hardware/)	
+ - [IoT Hardware Guide](https://www.postscapes.com/internet-of-things-hardware/)
+ - [Intro To Hardware Hacking - Dumping Your First Firmware](https://blog.nvisium.com/intro-to-hardware-hacking-dumping-your-first-firmware)
  
 #### Hardware Gadgets to pentest
 
@@ -487,6 +490,8 @@ by Fotios Chantzis, Ioannis Stais, Paulino Calderon, Evangelos Deirmentzoglou, B
    - [Reverse Engineering Serial Ports](http://www.devttys0.com/2012/11/reverse-engineering-serial-ports/)
    - [REVERSE ENGINEERING ARCHITECTURE AND PINOUT OF CUSTOM ASICS](https://sec-consult.com/en/blog/2019/02/reverse-engineering-architecture-pinout-plc/)
    - [ChipWhisperer - Hardware attacks](http://wiki.newae.com/Main_Page)
+   - [Hardware hacking tutorial: Dumping and reversing firmware](https://ivanorsolic.github.io/post/hardwarehacking1/)
+   - 
    
 
 #### SPI
@@ -505,7 +510,8 @@ by Fotios Chantzis, Ioannis Stais, Paulino Calderon, Evangelos Deirmentzoglou, B
    - [A journey into IoT – Hardware hacking: UART](https://techblog.mediaservice.net/2019/03/a-journey-into-iot-hardware-hacking-uart/)
    - [UARTBruteForcer](https://github.com/FireFart/UARTBruteForcer)
    - [UART Connections and Dynamic analysis on Linksys e1000](https://www.youtube.com/watch?v=ix6rSV2Dj44&ab_channel=Defenceindepth)
-   - [Accessing and Dumping Firmware Through UART](https://securityboulevard.com/2020/12/accessing-and-dumping-firmware-through-uart/)
+   - [Accessing and Dumping Firmware Through UART](https://www.cyberark.com/resources/threat-research-blog/accessing-and-dumping-firmware-through-uart)
+   - []()
 
 #### JTAG
 
