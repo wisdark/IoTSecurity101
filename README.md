@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/V33RU/IoTSecurity101/master/iot-banner.png)
+![](/101-final/banner.png)
 
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) 
 
@@ -546,7 +546,7 @@ Other Interesting Areas:
 #### *Firmware Analysis Tools*
  - [EMBA-An analyzer for embedded Linux firmware](https://p4cx.medium.com/emba-b370ce503602)
  - [FACT-Firmware Analysis and Comparison Tool](https://github.com/fkie-cad/FACT_core)
- - [Binwalk](https://github.com/ReFirmLabs/binwalk)
+ - [Binwalk-v3](https://github.com/ReFirmLabs/binwalk/tree/binwalkv3)
  - [fwhunt-scanner-Tools for analyzing UEFI firmware and checking UEFI modules with FwHunt rules](https://github.com/binarly-io/fwhunt-scan)
  - [Qiling](https://github.com/qilingframework/qiling)
  - [fwanalyzer](https://github.com/cruise-automation/fwanalyzer)
@@ -873,7 +873,7 @@ Explore the world of EMMC hacking with these curated resources. Whether you're n
 ### Blogs for IoT Pentest
 
 #### *🌐 IoT Security Blogs*
-
+- [Team82 Research](https://claroty.com/team82/research)
 - [wrongbaud](https://wrongbaud.github.io/)
 - [Firmware Analysis](https://fwanalysis.blogspot.com/)
 - [**voidstarsec**](https://voidstarsec.com/blog/)
